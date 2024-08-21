@@ -67,7 +67,7 @@ router.get('/', async (req, res) => {
                     │└────────────┈ ⳹        
                     │©2024-3052 STAR KING 
                     └─────────────────┈ ⳹\n\n `;
-ff                 await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: SIGMA_MD_TEXT });
+                    await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: SIGMA_MD_TEXT });
 
                     await delay(100);
                     await Pair_Code_By_Maher_Zubair.ws.close();
