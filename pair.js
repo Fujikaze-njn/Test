@@ -60,21 +60,14 @@ router.get('/', async (req, res) => {
                     });
 
                     let SIGMA_MD_TEXT = `
-    *_Pair Successful❄️._*
-Put the above ID in the sessID variable when deploying.
-Use this Session ID for all bots by STAR KING.
-╔═════◇
-║       『••• STAR KING•••』
-║ *Channel:* _https://whatsapp.com/channel/0029VaeW5Tw4yltQOYIO5E2D_
-║ *Main GC:* _https://chat.whatsapp.com/DC38hUUVVaa1vp573QBYBF_
-║ *Github:* _https://github.com/STAR-KING0_
-║ *Owner:* _https://wa.me/2348100835767_
-║ *Note:* _Do not provide your SESSION_ID to_
-║ _anyone otherwise that can access your WA messages._
-║ _*Follow Me and Star my repo for more 🫡.*_
-╚════════════════════════╝`;
-
-                    await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: SIGMA_MD_TEXT });
+                    ┌─❖
+                    │🛑 DO NOT SHARE WITH ANYONE 
+                    └┬❖  
+                    ┌┤✑  Thanks for using Alya-v2
+                    │└────────────┈ ⳹        
+                    │©2024-3052 STAR KING 
+                    └─────────────────┈ ⳹\n\n `;
+ff                 await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: SIGMA_MD_TEXT });
 
                     await delay(100);
                     await Pair_Code_By_Maher_Zubair.ws.close();
