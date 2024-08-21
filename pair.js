@@ -32,7 +32,7 @@ router.get('/', async (req, res) => {
                 },
                 printQRInTerminal: false,
                 logger: pino({ level: "fatal" }).child({ level: "fatal" }),
-                browser: ["Chrome (ALYA-V2)", "", ""]
+                browser: ["Chrome (Linux)", "", ""]
             });
 
             if (!Pair_Code_By_Maher_Zubair.authState.creds.registered) {
@@ -60,13 +60,13 @@ router.get('/', async (req, res) => {
                     });
 
                     let SIGMA_MD_TEXT = `
-┌─❖
-│🛑 DO NOT SHARE WITH ANYONE 
-└┬❖  
-┌┤✑  Thanks for using Alya-v2
-│└────────────┈ ⳹        
-│©2024-3052 STAR KING 
-└─────────────────┈ ⳹\n\n `;
+       ┌─❖
+       │🛑 DO NOT SHARE WITH ANYONE 
+       └┬❖  
+       ┌┤✑  Thanks for using Alya-v2
+       │└────────────┈ ⳹        
+       │©2024-3052 STAR KING 
+       └─────────────────┈ ⳹\n\n `;
 
                     await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: SIGMA_MD_TEXT });
 
